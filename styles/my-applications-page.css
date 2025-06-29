@@ -1,0 +1,66 @@
+ body{
+  background-color:rgb(236, 236, 236);
+  padding-top:150px;
+}
+.back-button{
+  all:unset;
+  font-family:'arial',sans-serif;
+  font-size:13px;
+  color:rgb(60, 95, 130);
+  font-weight:600;
+  margin-right:20px;
+}
+.back-button:hover{
+  border-bottom:1.8px solid rgb(108, 107, 107);
+  padding-bottom:3px;
+}
+.h1{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.jobTitle{
+  margin-top:10px;
+  margin-bottom:0;
+}
+.company-name{
+  margin-top:7px;
+}
+.withdraw-application-button{
+  border-color:transparent;
+  background-color:rgb(74, 115, 156);
+  border-radius:20px;
+  height:auto;
+  width:150px;
+  font-family:'Open sans',sans-serif;
+  font-size:14px;
+  font-weight:550;
+  color:white;
+  padding-left:3px;
+  padding-right:3px;
+  margin-right:13px;
+  margin-top:12px;
+}
+.withdraw-application-button:hover{
+  box-shadow:3px 3px 4px rgb(171, 170, 170);
+  cursor:pointer;
+}
+.no-applied-jobs-container{
+  display:flex;
+  justify-content:center;
+  min-width:300px;
+  align-items:center;
+  height:150px;
+  flex-direction:column;
+  border-top-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border:3px solid rgb(74, 115, 156);
+  transition: transform 0.3s ease;
+  font-size:55px;
+  font-family:'open sans',sans-serif;
+  font-weight:600;
+  color:rgb(74, 115, 156);
+  margin-right:25px;
+  margin-left:25px;
+  margin-top:50px;
+}

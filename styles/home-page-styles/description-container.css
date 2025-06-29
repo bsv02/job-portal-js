@@ -1,0 +1,111 @@
+.description-container{
+  display:none;
+  flex-direction:column;
+  width:50%;
+  transition:all 0.3s ease;
+  margin-top:51px;
+  border:2px solid rgb(74, 115, 156);
+  border-radius:5px;
+  margin-right:25px;
+  min-width:400px;
+}
+.description-container.show{
+  display:flex;
+  padding:10px;
+}
+.description{
+  display:flex;
+  flex-direction:column;
+}
+.first-line{
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+}
+.logo-in-description{
+  margin-left:20px;
+  margin-top:10px;
+  height:65px;
+  width:65px;
+  border:0.5px solid rgb(119, 119, 119);
+}
+.title-in-description{
+  margin-left:30px;
+  margin-top:5px;
+  margin-bottom:0;
+  font-family:'Open sans',sans-serif;
+  font-size:20px;
+  font-weight:600;
+}
+.company-name-in-description{
+  margin-left:30px;
+  margin-top:5px;
+  color:gray;
+  font-family:'Montserrat',sans-serif;
+  font-size:12px;
+}
+.apply-button{
+  margin-left:40px;
+  margin-top:10px;
+  border-color:transparent;
+  background-color:rgb(74, 115, 156);
+  height:25px;
+  width:110px;
+  font-family:'Open sans',sans-serif;
+  font-size:12px;
+  font-weight:600;
+  color:white;
+}
+.save-button{
+  margin-top:10px;
+  margin-left:10px;
+  border:2px solid rgb(159, 159, 159);
+  background-color:white;
+  height:25px;
+  width:110px;
+  font-family:'Open sans',sans-serif;
+  font-size:12px;
+  font-weight:600;
+  color:black;
+  margin-right:20px;
+}
+.apply-button:hover,
+.save-button:hover{
+  box-shadow:3px 3px 4px rgb(171, 170, 170);
+  cursor:pointer;
+}
+.remaining-details-in-description{
+  margin-left:20px;
+}
+.description-titles{
+  font-family:'Open sans',sans-serif;
+  font-size:16px;
+  font-weight:600;
+}
+.about-the-company{
+  font-family:'Open sans',sans-serif;
+  font-size:14px;
+  font-weight:500;
+  margin-right:10px;
+}
+.detail{
+  display:grid;
+  grid-template-columns:180px 10px 1fr;
+}
+.label,.value{
+  font-family:'Open sans',sans-serif;
+  font-size:14px;
+  font-weight:500;
+}
+.value{
+  padding-left:10px;
+}
+.responsibility{
+  font-family:'Open sans',sans-serif;
+  font-size:14px;
+  font-weight:500;
+}
+.bullet{
+  font-size:14px;
+  margin-right:5px;
+}

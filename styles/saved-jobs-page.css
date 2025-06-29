@@ -1,0 +1,138 @@
+ body{
+  background-color:rgb(236, 236, 236);
+  padding-top:200px;
+  padding-bottom:40px;
+}
+.back-button{
+  all:unset;
+  font-family:'arial',sans-serif;
+  font-size:13px;
+  color:rgb(60, 95, 130);
+  font-weight:600;
+}
+.back-button:hover{
+  border-bottom:1.8px solid rgb(108, 107, 107);
+  padding-bottom:3px;
+}
+.h1{
+  display:flex;
+  flex:1;
+  justify-content:center;
+  align-items:center;
+}
+.no-saved-jobs{
+  height:150px;
+  border-top-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border:3px solid rgb(74, 115, 156);
+  transition: transform 0.3s ease;
+  font-size:55px;
+  font-family:'open sans',sans-serif;
+  font-weight:600;
+  color:rgb(74, 115, 156);
+}
+.saved-jobs-wrapper{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  gap: 25px; 
+  margin-left:22px;
+  margin-right:22px;
+}
+.saved-job-container{
+  flex: 1 1 calc(50% - 20px);
+  min-width: 300px; 
+  box-sizing: border-box;
+  border:2px solid rgb(74, 115, 156);
+  border-radius:5px;
+  padding-top:10px;
+  padding-bottom:12px;
+}
+.first-line{
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+}
+.logo-in-description{
+  margin-left:20px;
+  margin-top:10px;
+  height:65px;
+  width:65px;
+  border:0.5px solid rgb(119, 119, 119);
+}
+.title-in-description{
+  margin-left:30px;
+  margin-top:5px;
+  margin-bottom:0;
+  font-family:'Open sans',sans-serif;
+  font-size:20px;
+  font-weight:600;
+}
+.company-name-in-description{
+  margin-left:30px;
+  margin-top:5px;
+  color:gray;
+  font-family:'Montserrat',sans-serif;
+  font-size:12px;
+}
+.apply-button{
+  margin-left:40px;
+  margin-top:10px;
+  border-color:transparent;
+  background-color:rgb(74, 115, 156);
+  height:25px;
+  width:110px;
+  font-family:'Open sans',sans-serif;
+  font-size:12px;
+  font-weight:600;
+  color:white;
+}
+.unsave-button{
+  margin-top:10px;
+  margin-left:10px;
+  border:2px solid rgb(159, 159, 159);
+  background-color:white;
+  height:25px;
+  width:110px;
+  font-family:'Open sans',sans-serif;
+  font-size:12px;
+  font-weight:600;
+  color:black;
+  margin-right:20px;
+}
+.apply-button:hover,
+.unsave-button:hover{
+  box-shadow:3px 3px 4px rgb(171, 170, 170);
+  cursor:pointer;
+}
+.remaining-details-in-description{
+  margin-left:20px;
+}
+.description-titles{
+  font-family:'Open sans',sans-serif;
+  font-size:16px;
+  font-weight:600;
+}
+.about-the-company{
+  font-family:'Open sans',sans-serif;
+  font-size:14px;
+  font-weight:500;
+  margin-right:10px;
+}
+.label,.value{
+  font-family:'Open sans',sans-serif;
+  font-size:14px;
+  font-weight:500;
+}
+.value{
+  padding-left:10px;
+}
+.responsibility{
+  font-family:'Open sans',sans-serif;
+  font-size:14px;
+  font-weight:500;
+}
+.bullet{
+  font-size:14px;
+  margin-right:5px;
+}

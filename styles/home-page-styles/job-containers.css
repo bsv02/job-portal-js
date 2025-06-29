@@ -1,0 +1,121 @@
+.jobs-container{
+  width:100%;
+  transition:width 0.3s ease;
+  z-index:900;
+  display:flex;
+  flex-direction:column;
+  min-width:400px;
+}
+.individual-job{
+   display:flex;
+   position:relative;
+   min-width:250px;
+   flex-direction:column;
+   color:white;
+   margin-left:20px;
+   margin-right:20px;
+   margin-top:50px;
+   border-top-left-radius:20px;
+   border-bottom-right-radius:20px;
+   border:2px solid rgb(74, 115, 156);
+   transition: transform 0.3s ease;
+}
+.individual-job:hover{
+  transform:scale(1.02);
+  box-shadow:2px 2px 8px rgb(201,200,200) ,
+      -2px -2px 8px rgb(201, 200, 200);
+}
+.first-line{
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+}
+.logo{
+  width:35px;
+  height:35px;
+  object-fit:contain;
+  margin-left:10px;
+  border-radius:50%;
+  margin-top:11px;
+  border: 1px solid black;
+}
+.top-line{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+}
+.text-content{
+  flex:1;
+  margin-left:25px;
+}
+
+.job-title{
+  display:flex;
+  font-family:'Open sans',sans-serif;
+  font-size:16px;
+  font-weight:bold;
+  color:black;
+  margin-top:5px;
+  margin-bottom:0;
+}
+.description-button{
+  border-color:transparent;
+  background-color:rgb(74, 115, 156);
+  border-radius:20px;
+  height:auto;
+  width:130px;
+  font-family:'Open sans',sans-serif;
+  font-size:14px;
+  font-weight:550;
+  color:white;
+  padding-left:2px;
+  padding-right:2px;
+  position:static;
+  margin-right:13px;
+  margin-top:12px;
+}
+.description-button:hover{
+  box-shadow:3px 3px 4px rgb(171, 170, 170);
+  cursor:pointer;
+}
+.description-button:active{
+  color:black;
+  background-color:white;
+  border:1px solid black;
+  transition:background-color 0.1s ease,color 0.1s ease,border 0.1s ease;
+}
+.company-name{
+  color:gray;
+  font-family:'Montserrat',sans-serif;
+  font-size:12px;
+  margin-top:2px;
+  margin-bottom:0;
+}
+.required-skills{
+  font-family:'Open Sans',sans-serif;
+  font-size:13px;
+  font-weight:500;
+  margin-left:70px;
+  color:black;
+  margin-top:15px;
+}
+.third-line{
+  display:flex;
+}
+.job-type,.experience,.location{
+  font-size:11px;
+  font-family:'Montserrat',sans-serif;
+  font-weight:400;
+  color:black;
+  background-color:rgb(207, 206, 206);
+  padding:6px;
+  margin-bottom:10px;
+  margin-top:15px;
+  height:auto;
+}
+.job-type{
+  margin-left:70px;
+}
+.experience,.location{
+  margin-left:15px;
+}
